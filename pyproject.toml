@@ -1,0 +1,19 @@
+[project]
+name = "tolman-hydro-test"
+version = "0.1.0"
+description = "Forward-model Tolman surface-brightness measurements on hydrodynamical mock surveys."
+requires-python = ">=3.11"
+dependencies = [
+    "astropy",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+]
+
+[project.scripts]
+tolman = "tolman.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

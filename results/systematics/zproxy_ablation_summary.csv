@@ -1,0 +1,3 @@
+sample,features,auc_train,n_deblended,alpha_mean_sb,err_mean_sb,alpha_max_sb,err_max_sb,n_gamma,gamma_rho,gamma_rho_err_ols,gamma_rho_err_boot,selection_overlap,alpha_spec_li,alpha_sed_paper
+ablated_no_zproxy,mag_F200W;mag_F356W;color_F150W_F356W;color_F200W_F444W;log_sb_mean;log_aperture_area;n_valid_filters,0.9021196655472437,2802,-0.9208889080986687,0.0291121424980412,-0.9100720652241416,0.0279643189544426,2901,2.3658480463248712,0.0378697245171381,0.0451864276729941,2804,-0.3,0.3
+canonical_reference,mag_F200W;mag_F356W;color_F150W_F356W;color_F200W_F444W;log_sb_mean;log_aperture_area;z_proxy;n_valid_filters,,2901,-0.879,0.03,-0.866,0.029,2901,2.456629157119505,0.0416586394079563,,2901,-0.3,0.3

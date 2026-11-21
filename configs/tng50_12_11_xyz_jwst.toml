@@ -1,0 +1,47 @@
+[catalog]
+redshift_col = "z"
+area_col = "aperture_area_arcsec2"
+object_id_col = "id"
+field_col = "field"
+
+[selection]
+min_snr = 5
+spec_mag_filter = "F200W"
+spec_mag_limit = 29.0
+z_min = 0.0
+z_max = 14.0
+
+[[filters]]
+name = "F090W"
+lambda_eff_angstrom = 9020
+flux_col = "flux_F090W_uJy"
+
+[[filters]]
+name = "F115W"
+lambda_eff_angstrom = 11540
+flux_col = "flux_F115W_uJy"
+
+[[filters]]
+name = "F150W"
+lambda_eff_angstrom = 15010
+flux_col = "flux_F150W_uJy"
+
+[[filters]]
+name = "F200W"
+lambda_eff_angstrom = 19890
+flux_col = "flux_F200W_uJy"
+
+[[filters]]
+name = "F277W"
+lambda_eff_angstrom = 27620
+flux_col = "flux_F277W_uJy"
+
+[[filters]]
+name = "F356W"
+lambda_eff_angstrom = 35680
+flux_col = "flux_F356W_uJy"
+
+[[filters]]
+name = "F444W"
+lambda_eff_angstrom = 44040
+flux_col = "flux_F444W_uJy"

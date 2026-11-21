@@ -1,0 +1,8 @@
+n,r2,intercept,coef_log1pz,err_log1pz,model,predictors,coef_log_aperture_radius_arcsec,err_log_aperture_radius_arcsec,coef_log_aperture_radius_kpc,err_log_aperture_radius_kpc,coef_log_mstar_msun_2rhalf,err_log_mstar_msun_2rhalf,coef_log_sfr_plus_1e-3,err_log_sfr_plus_1e-3,coef_app_gmag_rest,err_app_gmag_rest,coef_n_ratio_filters,err_n_ratio_filters
+2901,0.04456460902520465,-0.22000850700618835,0.4117470509097656,0.035408864617604494,log_ratio_vs_log1pz,log1pz,,,,,,,,,,,,
+2901,0.1841397091026562,-0.2800266930064413,,,log_ratio_vs_log_aperture_radius_arcsec,log_aperture_radius_arcsec,-0.7811036416996292,0.030536462624179566,,,,,,,,,,
+2901,0.1498712081729141,0.34078157689824334,,,log_ratio_vs_log_aperture_radius_kpc,log_aperture_radius_kpc,,,-0.6739031955017932,0.029809635543592884,,,,,,,,
+2901,0.21677894237300965,2.538271629423085,,,log_ratio_vs_log_mstar_msun_2rhalf,log_mstar_msun_2rhalf,,,,,-0.257143549034716,0.009077895040670338,,,,,,
+2901,0.002832424401335909,-0.06468014756131141,,,log_ratio_vs_log_sfr_plus_1e-3,log_sfr_plus_1e-3,,,,,,,-0.012500777104826846,0.004356300344149487,,,,
+2901,0.37483643531903554,-3.510080825237876,,,log_ratio_vs_app_gmag_rest,app_gmag_rest,,,,,,,,,0.15088918703730103,0.0036191779795951887,,
+2901,0.00018484285481190632,-2.135053360184844,,,log_ratio_vs_n_ratio_filters,n_ratio_filters,,,,,,,,,,,0.15899101746639413,0.21717358760146738

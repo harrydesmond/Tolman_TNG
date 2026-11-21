@@ -1,0 +1,5 @@
+sample,alpha,alpha_err,N,psf_sigma_pix,sky_sigma_nJy_per_pix
+"fixed-physical, noise-free (F200W only)",-0.8313910101558345,0.029421598248256207,2901,1.0,0.1
+"fixed-physical, PSF+noise (F200W only)",-0.8328339791198456,0.029224733103157003,2901,1.0,0.1
+"adaptive ASTRODEEP, noise-free (F200W only)",0.5853758822275633,0.04689938128344258,2901,1.0,0.1
+"adaptive ASTRODEEP, PSF+noise (F200W only)",0.5828449595427161,0.046877392972465425,2901,1.0,0.1
